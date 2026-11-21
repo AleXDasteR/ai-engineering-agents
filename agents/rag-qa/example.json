@@ -1,0 +1,12 @@
+{
+  "dataOrigin":"synthetic demonstration",
+  "now":"2026-11-21T00:00:00Z",
+  "documents":[{"id":"rules","text":"В соло топ-4, в дуэтах топ-2.","updatedAt":"2026-11-20T00:00:00Z"}],
+  "cases":[
+    {"id":"duos","expectedDocumentIds":["rules"],"retrievedDocumentIds":["rules"],
+      "answer":"В дуэтах топ-2.","citations":[{"documentId":"rules","quote":"в дуэтах топ-2"}],"abstained":false},
+    {"id":"unanswerable","expectedDocumentIds":[],"retrievedDocumentIds":[],
+      "answer":"В базе нет этой информации.","citations":[],"abstained":true}
+  ],
+  "thresholds":{"minimumRecall":1,"maximumDocumentAgeDays":30}
+}
