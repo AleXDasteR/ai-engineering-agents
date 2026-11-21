@@ -1,0 +1,16 @@
+{
+  "dataOrigin":"synthetic recorded tool calls",
+  "tools":[
+    {"name":"lookup","effect":"read","retrySafe":true,
+      "inputSchema":{"type":"object","properties":{"id":{"type":"string","minLength":1}},"required":["id"],"additionalProperties":false},
+      "outputSchema":{"type":"object","properties":{"found":{"type":"boolean"}},"required":["found"],"additionalProperties":false}}
+  ],
+  "cases":[
+    {"id":"valid-lookup","tool":"lookup","arguments":{"id":"example"},
+      "result":{"isError":false,"structuredContent":{"found":true}},
+      "expectedInputValid":true,"expectedError":false,"durationMs":20,"attempts":1},
+    {"id":"bad-argument","tool":"lookup","arguments":{"id":12},
+      "result":{"isError":true},"expectedInputValid":false,"expectedError":true,"durationMs":5,"attempts":1}
+  ],
+  "limits":{"maximumDurationMs":1000,"maximumAttempts":2}
+}
