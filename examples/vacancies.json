@@ -1,0 +1,72 @@
+[
+  {
+    "id": "demo-01", "companyId": "demo-a", "company": "Пример Альфа", "title": "AI Engineer / Python",
+    "url": "https://example.invalid/jobs/01", "remote": true, "city": "Москва",
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python",
+    "salary": { "from": 100000, "to": 150000, "currency": "RUB" },
+    "descriptionRead": true,
+    "description": "Демонстрационная вакансия. Разработка RAG на Python и FastAPI, интеграции с внутренними API. Удалённая работа из России. Коммерческий опыт от двух лет."
+  },
+  {
+    "id": "demo-02", "companyId": "demo-b", "company": "Пример Бета", "title": "Python Backend Developer",
+    "url": "https://example.invalid/jobs/02", "remote": false, "city": "Казань",
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true,
+    "description": "Демонстрационная вакансия. Офис в Казани, FastAPI, API-интеграции и сопровождение сервисов на Docker. Зарплата обсуждается."
+  },
+  {
+    "id": "demo-03", "companyId": "demo-known", "company": "Полярный пример", "title": "LLM Engineer",
+    "url": "https://example.invalid/jobs/03", "remote": true,
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия компании из журнала."
+  },
+  {
+    "id": "demo-04", "company": "Пример Гамма", "title": "Senior Python Engineer",
+    "url": "https://example.invalid/jobs/04", "remote": true,
+    "requiredYears": 5, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия. Требуется пять лет опыта и техническое лидерство."
+  },
+  {
+    "id": "demo-05", "company": "Пример Дельта", "title": "Python Engineer",
+    "url": "https://example.invalid/jobs/05", "remote": null,
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия. Формат работы не уточнён."
+  },
+  {
+    "id": "demo-06", "company": "Пример Эпсилон", "title": "LLM Integration Engineer",
+    "url": "https://example.invalid/jobs/06", "remote": true,
+    "requiredYears": 2, "contract": "contractor", "primaryStack": "llm-integration",
+    "salary": { "from": 1800, "to": 2400, "currency": "USD" },
+    "descriptionRead": true, "description": "Демонстрационная вакансия. LLM tool calling, тестирование качества и интеграция с базой знаний. Удалённо из любой страны."
+  },
+  {
+    "id": "demo-07", "company": "Пример Дзета", "title": "Python Automation Engineer",
+    "url": "https://example.invalid/jobs/07", "remote": true,
+    "requiredYears": 1, "contract": "self-employed", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия. Парсинг каталогов, обновление данных в MongoDB, интеграции. Удалённо из России."
+  },
+  {
+    "id": "demo-08", "company": "Пример Эта", "title": "AI Fullstack / Python + TypeScript",
+    "url": "https://example.invalid/jobs/08", "remote": true,
+    "requiredYears": 3, "contract": "employment", "primaryStack": "python-typescript", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия. Python, React, внутренние AI-инструменты и автоматизация. Удалённо."
+  },
+  {
+    "id": "demo-09", "company": "Пример Тета", "title": "Python Developer",
+    "url": "https://example.invalid/jobs/09", "remote": false, "city": "Москва",
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вакансия. Обязательный офис в Москве."
+  },
+  {
+    "id": "demo-10", "company": "Пример Йота", "title": "Python Developer",
+    "url": "https://example.invalid/jobs/10", "remote": true,
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": false, "description": "Краткий фрагмент карточки. Полное описание пока не прочитано."
+  },
+  {
+    "id": "demo-11", "companyId": "demo-a", "company": "ООО Пример Альфа", "title": "Python Developer",
+    "url": "https://example.invalid/jobs/11", "remote": true,
+    "requiredYears": 2, "contract": "employment", "primaryStack": "python", "salary": null,
+    "descriptionRead": true, "description": "Демонстрационная вторая вакансия той же компании."
+  }
+]
