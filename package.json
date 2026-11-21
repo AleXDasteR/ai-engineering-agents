@@ -1,0 +1,15 @@
+{
+  "name": "ai-engineering-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nine AI engineering skills with executable evaluation, QA, cost and incident checks",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "demo": "node src/cli.mjs --vacancies examples/vacancies.json --criteria examples/criteria.json --journal examples/journal.json --output output/report.json",
+    "test": "node --test",
+    "product": "node agents/product-qa/run.mjs",
+    "ci": "node agents/ci-test/run.mjs",
+    "demo:agents": "node scripts/demo-agents.mjs"
+  }
+}
