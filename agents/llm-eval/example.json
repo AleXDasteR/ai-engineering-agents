@@ -1,0 +1,18 @@
+{
+  "dataOrigin": "synthetic demonstration",
+  "cases": [
+    {"id":"solo","expected":"4"},
+    {"id":"duos","expected":"2"}
+  ],
+  "runs": [
+    {"id":"a1","caseId":"solo","model":"small-demo","output":"4","inputTokens":100,"outputTokens":5,"latencyMs":100},
+    {"id":"a2","caseId":"duos","model":"small-demo","output":"2","inputTokens":100,"outputTokens":5,"latencyMs":110},
+    {"id":"b1","caseId":"solo","model":"baseline-demo","output":"8","inputTokens":200,"outputTokens":10,"latencyMs":300},
+    {"id":"b2","caseId":"duos","model":"baseline-demo","output":"2","inputTokens":200,"outputTokens":10,"latencyMs":320}
+  ],
+  "pricesUsdPerMillion": {
+    "small-demo":{"input":1,"output":2},
+    "baseline-demo":{"input":3,"output":6}
+  },
+  "thresholds":{"minimumExactMatch":1,"maximumP95LatencyMs":500,"maximumTotalCostUsd":0.005}
+}
