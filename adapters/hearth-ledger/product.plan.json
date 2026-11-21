@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "id": "battlegrounds-domain",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "{repo}/adapters/hearth-ledger/Run.ps1", "-ProjectPath", "{project}", "-HdtPath", "{hdt}", "-OutputDirectory", "{output}/domain", "-Mode", "Domain"],
+      "timeoutMs": 90000,
+      "paths": ["^src/"]
+    }
+  ],
+  "manualChecks": [
+    "В живой партии проверить положение оверлея, отсутствие перекрытия HDT и прохождение кликов в игру.",
+    "Проверить выбор героя и аксессуаров на реальных данных Tier7.",
+    "Проверить обновление рекомендаций при изменении доски и появлении Common Enabler в таверне."
+  ]
+}
