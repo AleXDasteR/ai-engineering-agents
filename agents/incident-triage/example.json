@@ -1,0 +1,10 @@
+{
+  "dataOrigin":"synthetic demonstration",
+  "events":[
+    {"timestamp":"2026-11-21T00:00:00Z","service":"worker","level":"info","message":"Job started","traceId":"demo-01"},
+    {"timestamp":"2026-11-21T00:00:01Z","service":"worker","level":"error",
+      "message":"ENOSPC while writing cache, api_key=DEMO_NOT_A_REAL_SECRET","traceId":"demo-01"},
+    {"timestamp":"2026-11-21T00:00:02Z","service":"worker","level":"error",
+      "message":"ENOSPC while writing report","traceId":"demo-02"}
+  ]
+}
