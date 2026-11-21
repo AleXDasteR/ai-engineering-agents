@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "id": "agent-regressions",
+      "command": "{node}",
+      "args": ["--test"],
+      "timeoutMs": 60000,
+      "paths": ["^(src|lib|agents|test|examples)/", "^package\\.json$", "^\\.agents/"]
+    },
+    {
+      "id": "six-agent-demos",
+      "command": "{node}",
+      "args": ["scripts/demo-agents.mjs"],
+      "timeoutMs": 30000,
+      "paths": ["^(agents|lib|scripts)/"]
+    },
+    {
+      "id": "job-search-demo",
+      "command": "{node}",
+      "args": ["src/cli.mjs", "--vacancies", "examples/vacancies.json", "--criteria", "examples/criteria.json", "--journal", "examples/journal.json", "--output", "{output}/job-search-demo.json"],
+      "timeoutMs": 10000,
+      "paths": ["^(src|examples)/"]
+    }
+  ]
+}
