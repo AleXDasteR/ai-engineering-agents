@@ -1,0 +1,14 @@
+{
+  "dataOrigin":"synthetic demonstration",
+  "pricesUsdPerMillion":{"demo-model":{"input":1,"cachedInput":0.2,"output":2}},
+  "baseline":{"seconds":60,"requests":[
+    {"id":"b1","model":"demo-model","inputTokens":1000,"cachedInputTokens":500,"outputTokens":100,"latencyMs":200,"success":true},
+    {"id":"b2","model":"demo-model","inputTokens":1000,"cachedInputTokens":500,"outputTokens":100,"latencyMs":250,"success":true}
+  ]},
+  "current":{"seconds":60,"requests":[
+    {"id":"c1","model":"demo-model","inputTokens":1000,"cachedInputTokens":500,"outputTokens":100,"latencyMs":200,"success":true},
+    {"id":"c2","model":"demo-model","inputTokens":1000,"cachedInputTokens":500,"outputTokens":100,"latencyMs":250,"success":true}
+  ]},
+  "budgets":{"maximumCostPerHourUsd":1,"maximumCostPerRequestUsd":0.01,"maximumP95LatencyMs":500,
+    "maximumErrorRate":0.1,"maximumCostGrowthRatio":1.5}
+}
