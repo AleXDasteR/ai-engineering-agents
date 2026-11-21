@@ -1,0 +1,9 @@
+{
+  "limit": 5,
+  "minimumSalaryRub": 100000,
+  "maximumRequiredYears": 4,
+  "officeCity": "Казань",
+  "allowedContracts": ["employment", "self-employed", "contractor"],
+  "primaryStacks": ["python", "python-typescript", "llm-integration"],
+  "fxToRub": { "RUB": 1, "USD": 90, "EUR": 90 }
+}
